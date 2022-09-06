@@ -1,16 +1,16 @@
 # Работа с AndroidStudio и с инструментом программирования, используемый для отладки устройств на базе Android - ADB
 
 ### Отобразить подключённый девайс в консоли:
-#### *./adb devisec *
+####  *./adb devisec* 
 
 ### Вывести адрес приложения todolist в системе Android:
-#### *./adb shell pm list packages | findstr todolist *
+####  *./adb shell pm list packages | findstr todolist*
 
 ### Установить .apk файл приложениия todolist на телефон с компьютера через ADB:
-#### *./adb install D:\todo.apk *
+#### *./adb install D:\todo.apk*
 
 ### Сделать скриншот запущенного приложения todolist и сразу скопировать на компьютер в одной команде:
-#### *./adb shell screencap /sdcard/screen.png | ./adb pull /sdcard/screen.png D:\AndroidSDK *
+#### *./adb shell screencap /sdcard/screen.png | ./adb pull /sdcard/screen.png D:\AndroidSDK*
 
 ### Вывести в консоль логи приложения todolist:
 #### *./adb install D:\todo.apk*
